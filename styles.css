@@ -1,0 +1,92 @@
+/* GENERAL STYLES */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 4004;
+  color: #e0e0e0;
+
+  background-color: #1a1a1a;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.heading-1 {
+  font-size: 4.8rem;
+  margin-bottom: 2.4rem;
+  letter-spacing: 1px;
+}
+
+/* HEADER */
+.logo,
+.main-nav-link {
+  color: #e0e0e0;
+  font-size: 1.8rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-bottom: 1px solid #333;
+  margin-bottom: 4.8rem;
+
+  height: 7.3rem;
+  padding: 0 4.8rem;
+}
+
+.main-nav {
+  font-size: 1.6rem;
+}
+
+.main-nav-list {
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
+}
+
+/* ABOUT */
+.section-about {
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.about {
+  max-width: 130rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  gap: 9.6rem;
+
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.about-description {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.about-img {
+  width: 100%;
+  border-radius: 50%;
+}
