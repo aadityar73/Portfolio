@@ -205,3 +205,13 @@ body {
 .social-icon {
   width: 35%;
 }
+
+/* FOOTER */
+
+.footer {
+  padding: 2.4rem 0;
+}
+
+.copyright {
+  font-size: 1.6rem;
+}
