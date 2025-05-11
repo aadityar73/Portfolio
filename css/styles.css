@@ -182,7 +182,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
 
   gap: 2.4rem;
-  padding: 1.2rem 9.6rem;
+  padding: 0 9.6rem;
 }
 
 .contact-icon {
